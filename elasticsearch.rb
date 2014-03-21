@@ -46,6 +46,7 @@ class Elasticsearch < Sensu::Handler
 
   def handle
     event = {
+      :@timestamp => time_stamp,
       :date_time => time_stamp,
       :action => action_to_string,
       :name => event_name,
