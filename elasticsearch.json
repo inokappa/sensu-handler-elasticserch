@@ -1,0 +1,9 @@
+{
+  // Please set /etc/sensu/conf.d/elasticserch.json
+  "elasticsearch": {
+    "host": "localhost",
+    "port": 9200,
+    "index": "sensu",
+    "type": "handler"
+  }
+}
