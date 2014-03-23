@@ -6,7 +6,7 @@
 
 #### how to use
 
- 1. `cd /path/to/sensu/plugins`
+ 1. `cd /path/to/sensu/handlers`
  1. `wget https://raw.githubusercontent.com/inokappa/sensu-handler-elasticserch/master/elasticsearch.rb` 
  1. `chmod 755 elasticsearch.rb`
  1. `cd /path/to/sensu/conf.d/`
